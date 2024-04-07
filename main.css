@@ -1,0 +1,38 @@
+body{
+    display:flex;
+}
+.sidebar{
+    background-color:#f4f4f4;
+    display:flex;
+    flex-direction: column;
+    padding: 10px;
+    height: 450px;
+    width:160px;
+}
+
+.sidebar .menu{
+    font-weight:900;
+    margin-bottom: 7px;
+} 
+
+.sidebar .link{
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: #000;
+}
+
+
+.content{
+    padding: 10px;
+}
+
+
+.ads{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+}
+
+.ad{
+    margin-bottom: 100px;
+}
